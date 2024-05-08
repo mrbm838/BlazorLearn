@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|e:\\program\\blazor\\mslearn-blazor-navigation\\pages\\myorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|solutionrelative:pages\\myorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyOrders.razor",
+              "DocumentMoniker": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\Pages\\MyOrders.razor",
+              "RelativeDocumentMoniker": "Pages\\MyOrders.razor",
+              "ToolTip": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\Pages\\MyOrders.razor",
+              "RelativeToolTip": "Pages\\MyOrders.razor",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:22:34.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

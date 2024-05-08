@@ -1,0 +1,39 @@
+﻿@page "/pizzas"
+@inject NavigationManager NavManager
+@using Microsoft.AspNetCore.WebUtilities
+@rendermode InteractiveServer
+
+<h1>Buy a Pizza</h1>
+
+<p>I want to order a: @PizzaName</p>
+
+<p>I want to add this topping: @ToppingName</p>
+
+<NavLink herf=@HomePageURI Match=NavLinkMatch.All>Home Page</NavLink>
+
+<button class="btn btn-primary" @onclick=NavigationToPaymentPage>BUY A PIZZA</button>
+
+@code {
+    [Parameter]
+    public string? PizzaName { get; set; }
+
+    public string? HomePageURI { get; set; }
+
+    private string? ToppingName { get; set; }
+
+    protected override void OnInitialized()
+    {
+        HomePageURI = NavManager.BaseUri;
+
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("topping", out var topping))
+        {
+            ToppingName = topping;
+        }
+    }
+
+    private void NavigationToPaymentPage()
+    {
+        @* NavManager.NavigateTo("payment"); *@
+    }
+}

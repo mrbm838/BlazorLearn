@@ -1,0 +1,22 @@
+﻿@* @page "/pizzaapproval" *@
+@using System.Globalization
+
+<h3>Approval rating: @approvalRating</h3>
+
+@code {
+    private decimal approvalRating = 0.5m;
+    private NumberStyles numberStyles = NumberStyles.AllowDecimalPoint | NumberStyles.AllowLeadingSign;
+    private CultureInfo cultureInfo = CultureInfo.CreateSpecificCulture("en-US");
+
+    private string ApprovalRatingString
+    {
+        get => approvalRating.ToString("0.000", cultureInfo);
+        set
+        {
+            if (decimal.TryParse(value, numberStyles, cultureInfo, out decimal result))
+            {
+                approvalRating = Math.Round(result, 3);
+            }
+        }
+    }
+}

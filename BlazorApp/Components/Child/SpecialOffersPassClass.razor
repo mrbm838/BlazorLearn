@@ -1,0 +1,14 @@
+﻿<h3>SpecialOffersNum:@ClassName?.A</h3>
+<h3>SpecialOffersNum:@ClassName?.B</h3>
+
+@code {
+    [CascadingParameter(Name = "ClassName")]
+    private AB? ClassName { get; set; } = new AB() { A = 1, B = 2 };
+
+    class AB
+    {
+        public int A { get; set; }
+
+        public int B { get; set; }
+    }
+}

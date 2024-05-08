@@ -1,0 +1,98 @@
+@page "/pizzas"
+@using BlazorApp.Data
+@using BlazorApp.Components.Child
+@inject PizzaService PizzaService
+@inject PizzaSalesState SalesState
+@rendermode InteractiveServer
+
+<h1>Welcome to Blazing Piazza</h1>
+<p>Today, we've sold this many pizzas: @SalesState.PizzasSoldToday</p>
+
+<button @onclick="IncrementSales">Buy a pizza</button>
+
+@code{
+
+    private void IncrementSales()
+    {
+        SalesState.PizzasSoldToday++;
+    }
+}
+
+<p>@WelcomeMessage</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Pizza Name</th>
+            <th>Descirption</th>
+            <th>Vegetarian</th>
+            <th>Vegan</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (todayPizzas == null)
+        {
+            <tr>
+                <td>Loading...</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var pizza in todayPizzas)
+            {
+                <tr>
+                    <td>@pizza.Name</td>
+                    <td>@pizza.Description</td>
+                    <td>@pizza.Vegetarian</td>
+                    <td>@pizza.Vegan</td>
+                    <td>@pizza.Price</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    private string WelcomeMessage = "However you like your pizzas, we can deliver them fast!";
+
+    private Pizza[]? todayPizzas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        todayPizzas = await PizzaService.GetPizzasAsync();
+    }
+
+}
+
+<h1>Our Latest Pizzas and Topping</h1>
+
+<PizzasTopping Topping="@(new PizzaTopping() { Name = "Chilli Sauce", Ingredients = "Three kinds of chilli."})"></PizzasTopping>
+
+
+<CascadingValue Value="DealName">
+    <SpecialOffers/>
+</CascadingValue>
+<CascadingValue Value="ClassName">
+    <SpecialOffersPassClass />
+</CascadingValue>
+
+@code {
+    [CascadingParameter(Name = "DealName")]
+    private string? DealName { get; set; } = "Throwback Thursday";
+    [CascadingParameter(Name = "SName")]
+    private string? SName { get; set; } = "SSSSTest";
+
+
+    [CascadingParameter(Name = "ClassName")]
+    private AB? ClassName { get; set; } = new AB(){ A = 1, B = 2 };
+
+    class AB
+    {
+        public int A { get; set; }
+
+        public int B { get; set; }
+    }
+}
+
+<Pizzaapproval />
