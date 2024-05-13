@@ -1,0 +1,25 @@
+@* @page "/FavoritePizzas/{favorite?}" *@
+@* @page "/FavoritePizzas/{FavoriteSize:int}" *@
+@page "/FavoritePizzas/{*Favorites}"
+
+<h1>Choose a Pizza</h1>
+
+@* <p>Your favorite pizza is: @Favorite</p> *@
+@* <p>Your favorite pizza is: @FavoriteSize inches.</p> *@
+<p>Your favorite pizza is: @Favorites</p>
+
+@code {
+    [Parameter]
+    public string Favorite { get; set; }
+
+    [Parameter]
+    public int FavoriteSize { get; set; }
+
+    [Parameter]
+    public string Favorites { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Favorite ??= "Fiorentina";
+    }
+}
