@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|e:\\program\\blazor\\mslearn-blazor-navigation\\pages\\myorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|solutionrelative:pages\\myorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|e:\\program\\blazor\\mslearn-blazor-navigation\\pages\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|solutionrelative:pages\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|e:\\program\\blazor\\mslearn-blazor-navigation\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8832676B-7342-4196-A13C-7647731CA260}|BlazingPizza.csproj|solutionrelative:orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrdersController.cs",
+              "ToolTip": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\OrdersController.cs",
+              "RelativeToolTip": "OrdersController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:12:56.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkout.razor",
+              "DocumentMoniker": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\Pages\\Checkout.razor",
+              "RelativeDocumentMoniker": "Pages\\Checkout.razor",
+              "ToolTip": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\Pages\\Checkout.razor",
+              "RelativeToolTip": "Pages\\Checkout.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T14:01:04.517Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +62,7 @@
               "RelativeDocumentMoniker": "Pages\\MyOrders.razor",
               "ToolTip": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\Pages\\MyOrders.razor",
               "RelativeToolTip": "Pages\\MyOrders.razor",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAABSAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAtwDYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T10:22:34.054Z",
               "EditorCaption": ""

@@ -55,7 +55,7 @@
         if (response.IsSuccessStatusCode)
         {
             OrderState.ResetOrder();
-            NavigationManager.NavigateTo("/myorders");
+            NavigationManager.NavigateTo($"/myorders/{newOrderId}");
         }
 
         isSubmitting = false;

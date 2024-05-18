@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ngge9djEq1V5oGXZ1PWozWsI9Q4ZCW2bumupfRjf9eo=",
+  "Hash": "DD7UzCx5AYtw2Y6CtRYvYAVG6sUn25dtUy+yxklzRwA=",
   "Source": "BlazingPizza",
   "BasePath": "_content/BlazingPizza",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\css\\font\\quicksand.css",
+      "SourceId": "BlazingPizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\",
+      "BasePath": "_content/BlazingPizza",
+      "RelativePath": "css/font/quicksand.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font\\quicksand.css"
     },
     {
       "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
@@ -207,25 +226,6 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2"
     },
     {
-      "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\css\\font\\quicksand.css",
-      "SourceId": "BlazingPizza",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\",
-      "BasePath": "_content/BlazingPizza",
-      "RelativePath": "css/font/quicksand.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font\\quicksand.css"
-    },
-    {
       "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\css\\site.css",
       "SourceId": "BlazingPizza",
       "SourceType": "Discovered",
@@ -319,25 +319,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo.svg"
-    },
-    {
-      "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\img\\pizza-slice.svg",
-      "SourceId": "BlazingPizza",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\",
-      "BasePath": "_content/BlazingPizza",
-      "RelativePath": "img/pizza-slice.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pizza-slice.svg"
     },
     {
       "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\img\\pizzas\\bacon.jpg",
@@ -490,6 +471,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\pizzas\\salad.jpg"
+    },
+    {
+      "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\img\\pizza-slice.svg",
+      "SourceId": "BlazingPizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\",
+      "BasePath": "_content/BlazingPizza",
+      "RelativePath": "img/pizza-slice.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pizza-slice.svg"
     },
     {
       "Identity": "E:\\Program\\Blazor\\mslearn-blazor-navigation\\wwwroot\\img\\user.svg",

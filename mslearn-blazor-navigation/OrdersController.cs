@@ -42,4 +42,20 @@ public class OrderController : Controller
 
         return order.OrderId;
     }
+
+    //[HttpGet("{orderId}")]
+    //public async Task<ActionResult<OrderWithStatus>> GetOrderWithStatus(int orderId)
+    //{
+    //    var order = await _db.Orders
+    //        .Include(o => o.Pizzas).ThenInclude(p => p.Special)
+    //        .Include(o => o.Pizzas).ThenInclude(p => p.Toppings).ThenInclude(pt => pt.Topping)
+    //        .SingleOrDefaultAsync(o => o.OrderId == orderId);
+
+    //    if (order == null)
+    //    {
+    //        return NotFound();
+    //    }
+
+    //    return OrderWithStatus.FromOrder(order);
+    //}
 }
