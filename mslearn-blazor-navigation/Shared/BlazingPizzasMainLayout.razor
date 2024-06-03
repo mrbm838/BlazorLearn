@@ -1,0 +1,20 @@
+@inherits LayoutComponentBase
+
+<header>
+    <h1>Blazing Pizza</h1>
+</header>
+
+<nav>
+    <a href="Pizzas">Browse Pizzas</a>
+    <a href="Toppings">Browse Extra Toppings</a>
+    <a href="FavoritePizzas">Tell us your favorite</a>
+    <a href="Orders">Track Your Order</a>
+</nav>
+
+@Body
+
+<footer>@TrademarkMessage</footer>
+
+@code{
+    public string TrademarkMessage {get; set; } = "All content is &copy; Blazing Pizzas 2021";
+}

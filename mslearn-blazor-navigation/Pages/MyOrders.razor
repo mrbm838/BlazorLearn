@@ -1,8 +1,8 @@
-@page "/myorders/{orderId:int}"
+@page "/myorders/"
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
 
-<div class="top-bar">
+@* <div class="top-bar">
     <a class="logo" href="">
         <img src="img/logo.svg" />
     </a>
@@ -16,7 +16,7 @@
         <img src="img/bike.svg" />
         <div>My Orders</div>
     </a>
-</div>
+</div> *@
 
 <div class="main">
     @if (ordersWithStatus == null)
@@ -47,7 +47,7 @@
                     @if (@item.StatusText != "Delivered")
                     {
                         <div class="col flex-grow-0">
-                            <a href="myorders/" class="btn btn-success">
+                            <a href="myorders/@item.Order.OrderId" class="btn btn-success">
                                 Track &gt;
                             </a>
                         </div>

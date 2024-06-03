@@ -1,6 +1,8 @@
 ﻿<Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" />
+        <RouteView RouteData="@routeData"
+         DefaultLayout="@typeof(MainLayout)"/>
+         @* DefaultLayout="@typeof(BlazingPizzasMainLayout)" *@
     </Found>
     <NotFound>
         <LayoutView >
